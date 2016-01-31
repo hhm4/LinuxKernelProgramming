@@ -8,6 +8,7 @@ printf ("hari");
 
 static inline char * asm_sub_str(char * dest, char *src, int s_idx, int edix){
 print ("asm hari");
+
   return dest;
 }
 

@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 static inline char * sub_str(char * dest, char *src, int s_idx, int edix){
 printf ("hari");

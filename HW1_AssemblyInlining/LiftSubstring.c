@@ -12,9 +12,9 @@ print ("asm hari");
 }
 
 int main(int argc,char **argv) {
-  char s[]=**argv[1];
-  int s_indx=(int)**argv[2];
-  int e_idx=(int)**argv[3];
+  char s[]=argv[1];
+  int s_indx=(int)argv[2];
+  int e_idx=(int)argv[3];
   d1=sub_str(d,s,s_idx,e_idx);
   d2=asm_sub_str(d,s,s_idx,e_idx);
 }

@@ -12,7 +12,8 @@ print ("asm hari");
 }
 
 int main(int argc,char **argv) {
-  char *s[]=argv[1];
+  char * s[]=malloc(strlen(argv[1])+1);
+  strcpy(s,argv[1]);
   int s_indx=(int)argv[2];
   int e_idx=(int)argv[3];
   d1=sub_str(d,s,s_idx,e_idx);
